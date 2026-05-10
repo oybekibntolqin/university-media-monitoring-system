@@ -7,11 +7,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.task.TaskExecutor;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
-import uz.otfiv.universitymediamonitoringsystem.entity.Employee;
-import uz.otfiv.universitymediamonitoringsystem.entity.Role;
-import uz.otfiv.universitymediamonitoringsystem.entity.ShowedMedia;
-import uz.otfiv.universitymediamonitoringsystem.entity.User;
+import uz.otfiv.universitymediamonitoringsystem.entity.*;
+import uz.otfiv.universitymediamonitoringsystem.entity.enums.OrgType;
+import uz.otfiv.universitymediamonitoringsystem.entity.enums.Province;
+import uz.otfiv.universitymediamonitoringsystem.entity.enums.RoleName;
 import uz.otfiv.universitymediamonitoringsystem.repo.MediaEventRepository;
+import uz.otfiv.universitymediamonitoringsystem.service.interfaces.*;
 
 import java.util.List;
 
